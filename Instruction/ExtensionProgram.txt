@@ -1,0 +1,20 @@
+***** Instruction for Program Extensions *****
+
+- Mainly, the program can be extend with more task added to the bots folder (either Register Bot or Surfing Bot)
+- Register Bots :
+    + Can change starting URL to get the Register Page.
+    + Follow the DOM of those Pages and try to give all the needed value for the Registration Form
+
+- NetSurfing Bots :
+    + Change the URL for starting Page
+    + The process of choosing Next Page to navigate or go back will stay quite the same
+    + The Domain Checking ( Make sure the page to navigate stay in CNN, BBC, Facebook,... ) need to change.
+    + The Share Button ( For Facebook ) need to re-find and change accordingly for Program able to Click it and Share
+
+- Bot PROFILE and CONSTANTS ( Some important Constants and Bots Profile )
+    + All information for the Bot to register account saved in Profile.py . You can change according to your account
+    + Facebook Login Information saved in Constant.py . You can change according to your account
+    + For Constant.py :
+        * All the _URL is link to a specific Page
+        * MIN/MAX_PAGE_PER_SESSION : Limit number of pages during surfing
+        * LIKED/SHARED_LIMIT : Limit number of article on Facebook to like and Share

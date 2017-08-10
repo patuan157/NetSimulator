@@ -1,0 +1,10 @@
+***** THis file show how to set up the application *****
+
+1. Python 3 (prefer newest python 3 online). Install and make sure python3 on path of the System
+2. With Pip installed (from python), install following package:
+    + selenium : pip install selenium
+    + pyautogui : pip install pyautogui
+    + numpy : pip install numpy
+    (* For Mac, you might need to use pip3. You can also install python, chromedriver, geckodriver by Homebrew)
+3. Download Chromedriver and Geckodriver (for Firefox) and make sure they also in the System Path
+4. Open Command Line, navigate to the project Folder and Follow Running Instruction

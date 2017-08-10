@@ -1,0 +1,27 @@
+**** This File show how to use Highest Level of Command Line to the app ****
+
+- We will pass some arguments along side with the program.
+- Always start with python app.py (on the root level of the program)
+- The Order of Arguments (with 0 index)
+    + [0] : app.py (name of the file)
+    + [1] : Browser_Name - Ex : Chrome, Firefox
+    + [2] : Operation - Ex : Registration, Surfing
+    + [3] : URL/Pages - Ex : Facebook/Google/Twitter/Instagram or BBC/CNN/...
+
+    + [4] : Category - "Surfing Only" - Ex : Sports, Travel, Money, ... (Default : None)
+    + [5] : Topic - "Surfing Only" - Ex : [Trump], [North-Korea], [Russia], ... (open and close with [])
+        -> Multiple Arguments : [trump,russia,Tennis,North-Korea]       (open and close with [] and separate with ',')
+        -> If No arguments want to pass, Just use "None"
+    + [6] : Allow_Sharing_Facebook - "Surfing Only" - Ex : Yes or No (Default : No)
+
+- Example Command Line with Its meaning
+    1. "Register Google on Chrome"
+    -> python app.py Chrome Registration Google
+    2. "Register Facebook on Firefox"
+    -> python app.py Firefox Registration Facebook
+    3. "Surf CNN on Chrome"
+    -> python app.py Chrome Surfing CNN None None No
+    4. "Surf BBC on Chrome in Sport Section"
+    -> python app.py Chrome Surfing BBC Sport None No
+    5. "Surf CNN on Chrome in Politics Section focus on "Trump" article and allow to share on Facebook"
+    -> python app.py Chrome Surfing CNN Opinion [Trump] Yes
